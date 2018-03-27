@@ -33,10 +33,8 @@ class Plugin {
               variableParts = variableParts[1].split(':');
               const suffix = variableParts[0];
               if (suffix == 'hashed') {
-                console.log(variableParts);
                 const hashedCallerId = sha1(callerId);
                 if (variableParts.length === 2) {
-                  console.log(variableParts);
                   const hashLength = parseInt(variableParts[1]);
                   if (hashLength) {
                     return hashedCallerId.slice(0, hashLength);
