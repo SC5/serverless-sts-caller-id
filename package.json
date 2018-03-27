@@ -1,0 +1,43 @@
+{
+  "name": "serverless-sts-caller-id",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=6.0"
+  },
+  "description": "Serverless plugin to get the user ID belonging to the current AWS credentials using STS (Security Token Service)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karim Amzil (https://nordcloud.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SC5/serverless-sts-caller-id.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SC5/serverless-sts-caller-id/issues"
+  },
+  "homepage": "https://github.com/SC5/serverless-sts-caller-id#readme",
+  "keywords": [
+    "serverless framework plugin",
+    "serverless applications",
+    "serverless plugins",
+    "sts",
+    "user id",
+    "caller id",
+    "lambda",
+    "aws",
+    "aws lambda",
+    "amazon",
+    "amazon web services",
+    "serverless.com"
+  ],
+  "dependencies": {
+    "aws-sdk": "^2.214.1",
+    "bluebird": "^3.5.1"
+  },
+  "devDependencies": {
+    "serverless": "^1.26.1"
+  }
+}
